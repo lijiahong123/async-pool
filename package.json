@@ -1,0 +1,35 @@
+{
+  "name": "@mrli-utils/asyncpool",
+  "version": "0.1.2",
+  "description": "异步请求并发控制函数，限制同一时间发起的请求量",
+  "keywords": [
+    "控制promise并发",
+    "utils",
+    "工具函数",
+    "请求并发"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "1471363285@qq.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lijiahong123/async-pool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lijiahong123/async-pool/issues"
+  },
+  "homepage": "https://github.com/lijiahong123/async-pool/tree/master#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "jest": "^29.5.0",
+    "rollup": "^2.79.1"
+  }
+}
